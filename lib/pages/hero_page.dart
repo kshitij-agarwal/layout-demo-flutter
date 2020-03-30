@@ -71,6 +71,10 @@ class HeroHeader implements SliverPersistentHeaderDelegate {
 
   @override
   FloatingHeaderSnapConfiguration get snapConfiguration => null;
+
+  @override
+  // TODO: implement stretchConfiguration
+  OverScrollHeaderStretchConfiguration get stretchConfiguration => null;
 }
 
 class HeroPage extends StatelessWidget implements HasLayoutGroup {
